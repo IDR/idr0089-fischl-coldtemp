@@ -22,18 +22,20 @@ project_name = "Project:name:idr0070-kerwin-hdbr/experimentA/"
 path_to_data = "/uod/idr/filesets/idr0070-kerwin-hdbr"
 
 pdi = {
-    "experimentA": {"AC16_Rep1": [], "AC16_Rep2": [],},
+    "experimentA": {
+        "Rep1_HNRNPC_NUP": [],
+        "Rep2_HNRNPC_NUP": [],
+        "Rep2_H3K4M_H3K27M": [],
+        "Rep2_POLS2P_H3K9M": [],
+    },
+    # NB REV-ERBα is NR1D1
     "experimentB": {
-        "AC16_Rep1": [],
-        "AC16_Rep2": [],
-        "AC16_Rep3": [],
+        "REV-ERBα_AC16": [],
+        "CRY2_AC16": [],
+        "TP53_AC16": [],
         "AC16_Rep4": [],
-        "U2OS_Rep1": [],
-        "U2OS_Rep2": [],
-        "U2OS_Rep3": [],
-        "U2OSNr1d1KO_Rep1": [],
-        "U2OSNr1d1KO_Rep2": [],
-        "U2OSNr1d1KO_Rep3": [],
+        "REV-ERBα_U2OS": [],
+        "Nr1d1KO_U2OS": [],
     },
 }
 
@@ -53,23 +55,28 @@ for name in image_names:
     dataset = None
     if name.endswith(".tif"):
         project = "experimentA"
-        for rep in ["AC16_Rep1", "AC16_Rep2"]:
-            if name.startswith(rep):
-                dataset = rep
+        if "HNRNPC" in name and "Rep1" in name:
+            dataset = "Rep1_HNRNPC_NUP"
+        elif "HNRNPC" in name and "Rep2" in name:
+            dataset = "Rep2_HNRNPC_NUP"
+        elif "H3K4M" in name:
+            dataset = "Rep2_H3K4M_H3K27M"
+        elif "POLS2P" in name:
+            dataset = "Rep2_POLS2P_H3K9M"
     elif name.endswith(".dv"):
         project = "experimentB"
         if "Nr1d1KO" in name:
-            for r in ["_Rep1", "_Rep2", "_Rep3"]:
-                if r in name:
-                    dataset = "U2OSNr1d1KO" + r
-        elif "U2OS" in name:
-            for r in ["_Rep1", "_Rep2", "_Rep3"]:
-                if r in name:
-                    dataset = "U2OS" + r
+            dataset = "Nr1d1KO_U2OS"
+        elif "U2OS" in name and "Nr1d1" in name:
+            # Nr1d1 == REV-ERBα
+            dataset = "REV-ERBα_U2OS"
         elif "AC16_" in name:
-            for r in range(1, 5):
-                if f"_Rep{r}" in name:
-                    dataset = f"AC16_Rep{r}"
+            if "Nr1d1" in name:
+                dataset = "REV-ERBα_AC16"
+            elif "Tp53" in name:
+                dataset = "TP53_AC16"
+            elif "Cry2" in name:
+                dataset = "CRY2_AC16"
     if project is not None and dataset is not None:
         pdi[project][dataset].append(name)
     else:
