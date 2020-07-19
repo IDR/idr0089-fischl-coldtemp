@@ -1,0 +1,16 @@
+---
+channels:
+    1:
+        active: true
+        label: 'REV-ERBα'
+        start: 1000
+        end: 3500
+    2:
+        active: true
+        label: 'DAPI'
+        start: 0
+        end: 15000
+
+
+greyscale: false
+version: 2

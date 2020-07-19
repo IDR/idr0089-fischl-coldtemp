@@ -1,0 +1,21 @@
+---
+channels:
+    1:
+        active: true
+        label: 'NUP'
+        start: 0
+        end: 989
+    2:
+        active: true
+        label: 'hnRNPC'
+        start: 0
+        end: 8553
+    3:
+        active: true
+        label: 'DAPI'
+        start: 0
+        end: 6190
+
+
+greyscale: false
+version: 2

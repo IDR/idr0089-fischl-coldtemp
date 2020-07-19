@@ -1,0 +1,21 @@
+---
+channels:
+    1:
+        active: true
+        label: 'H3K9M'
+        start: 0
+        end: 600
+    2:
+        active: true
+        label: 'POLS2P'
+        start: 0
+        end: 1680
+    3:
+        active: true
+        label: 'DAPI'
+        start: 0
+        end: 6190
+
+
+greyscale: false
+version: 2

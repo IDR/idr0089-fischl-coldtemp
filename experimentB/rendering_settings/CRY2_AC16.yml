@@ -1,0 +1,19 @@
+---
+channels:
+    1:
+        active: false
+        label: 'PoorProbe'
+    2:
+        active: true
+        label: 'CRY2'
+        start: 3500
+        end: 30000
+    3:
+        active: true
+        label: 'DAPI'
+        start: 300
+        end: 35000
+
+
+greyscale: false
+version: 2
