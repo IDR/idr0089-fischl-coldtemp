@@ -9,7 +9,7 @@ channels:
         active: true
         label: 'DAPI'
         start: 500
-        end: 10000
+        end: 15000
 
 
 greyscale: false

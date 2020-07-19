@@ -6,8 +6,8 @@ channels:
     2:
         active: true
         label: 'TP53'
-        start: 2300
-        end: 18000
+        start: 3500
+        end: 21000
     3:
         active: true
         label: 'DAPI'
