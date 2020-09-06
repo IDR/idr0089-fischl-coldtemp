@@ -1,0 +1,72 @@
+---
+name: idr0089-fischl-coldtemp/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Comment [Cell Line]
+    clientname: Cell Line Comment
+    include: yes
+
+  - name: Experimental Condition [Condition]
+    clientname: Condition
+    include: yes
+
+  - name: Comment [Image File Type]
+    clientname: Image File Type
+    include: yes
+
+  - name: Channels
+    clientname: Channels
+    include: yes
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+        - name: Comment [Gene Identifier]
+          clientname: Gene Identifier
+          include: yes
+        - name: Comment [Gene Symbol]
+          clientname: Gene Symbol
+          include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+        - name: Characteristics [Cell Line]
+          clientname: Cell Line
+          include: true
+
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
+    - namespace: openmicroscopy.org/mapr/gene
+      keys:
+        - Gene Identifier
+        - Gene Symbol
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+        - Cell Line
