@@ -2,14 +2,14 @@
 channels:
     1:
         active: true
-        label: 'REV-ERBα'
-        start: 1200
-        end: 2500
+        label: 'NR1D1'
+        start: 1000
+        end: 3000
     2:
         active: true
         label: 'DAPI'
-        start: 500
-        end: 10000
+        start: 1000
+        end: 18000
 
 
 greyscale: false

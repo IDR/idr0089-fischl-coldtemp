@@ -2,17 +2,17 @@
 channels:
     1:
         active: false
-        label: 'PoorProbe'
+        label: 'blank'
     2:
         active: true
         label: 'TP53'
         start: 1000
-        end: 13000
+        end: 12000
     3:
         active: true
         label: 'DAPI'
-        start: 1000
-        end: 35000
+        start: 1500
+        end: 32000
 
 
 greyscale: false

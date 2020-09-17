@@ -2,7 +2,7 @@
 channels:
     1:
         active: false
-        label: 'PoorProbe'
+        label: 'blank'
     2:
         active: true
         label: 'CRY2'
@@ -12,7 +12,7 @@ channels:
         active: true
         label: 'DAPI'
         start: 300
-        end: 35000
+        end: 38000
 
 
 greyscale: false
