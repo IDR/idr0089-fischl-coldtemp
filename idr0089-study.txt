@@ -1,0 +1,154 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.															
+# STUDY DESCRIPTION SECTION																				
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details																														
+Comment[IDR Study Accession]	idr0089																																
+Study Title	Cold-induced chromatin compaction and nuclear retention of clock mRNAs resets the circadian rhythm																																
+Study Type	response to cold																														
+Study Type Term Source REF	GO																														
+Study Type Term Accession	GO_0009409																																
+Study Description	Cooling patients to sub-physiological temperatures is an integral part of modern medicine. We show that cold exposure induces temperature-specific changes to the higher-order chromatin and gene expression profiles of human cells. These changes are particularly dramatic at 18°C, a temperature synonymous with that experienced by patients undergoing controlled deep-hypothermia during surgery. Cells exposed to 18°C exhibit largely nuclear-restricted transcriptome changes. These include the nuclear accumulation of core circadian clock suppressor gene transcripts, most notably REV-ERBα. This response is accompanied by compaction of higher-order chromatin and hindrance of mRNPs from engaging nuclear pores. Rewarming reverses chromatin compaction and releases the transcripts into the cytoplasm, triggering a pulse of suppressor gene proteins that resets the circadian clock. We show that cold-induced upregulation of REV-ERBα alone is sufficient to trigger this resetting. Our findings uncover principles of the cellular cold-response that must be considered for current and future applications involving therapeutic deep-hypothermia.																	
+Study Key Words	Circadian rhythms	Chromatin compaction	Nuclear export	Cold temperatures	REV-ERBα																												
+Study Organism	Homo sapiens																															
+Study Organism Term Source REF	NCBITaxon 																																
+Study Organism Term Accession	9606																																
+Study Experiments Number	2																															
+Study External URL	
+	
+
+Study BioImage Archive Accession																															
+Study Public Release Date																																																							
+# Study Publication																																	
+Study PubMed ID																																	
+Study Publication Title	Cold-induced chromatin compaction and nuclear retention of clock mRNAs resets the circadian rhythm																													
+Study Author List	Fischl H, McManus D, Oldenkamp R, Schermelleh L, Mellor J, Jagannath A, Furger A																																
+Study PMC ID																																	
+Study DOI																			
+																																	
+# Study Contacts																																	
+Study Person Last Name	Furger	Fischl																											
+Study Person First Name	Andre	Harry																															
+Study Person Email	andre.furger@bioch.ox.ac.uk	harry.fischl@bioch.ox.ac.uk																														
+Study Person Address	Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU																																
+Study Person ORCID	0000-0002-1161-2841																																
+Study Person Roles	corresponding author	submitter																																																						
+# Study License and Data DOI																																	
+Study License	CC-BY 4.0																														
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																
+Study Copyright	Harry Fischl, Andre Furger 																																
+Study Data Publisher	University of Dundee																																
+Study Data DOI																																														
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																														
+																																	
+# EXPERIMENT SECTION																																	
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment																																					
+Experiment Number	1																																
+Comment[IDR Experiment Name]	idr0089-fischl-coldtemp/experimentA		
+
+
+Experiment Sample Type	cell																														
+Experiment Description	3D-SIM of human cardiomyocyte cells (AC16s) exposed to different cold temperatures stained with markers for nuclear features (chromatin modifications: H3K4me3, H3K27me3, H3K9me3; Ser2-phosphorylated C-terminal domain of RNA polymerase II; hnRNPC; Nuclear pore complex) and DAPI. Cells were grown in 6 different temperature conditions prior to fixation: 37 degrees centigrade; 28 degrees centigrade for 24 h; 18 degrees centigrade for 5 h; 18 degrees centigrade for 24 h; 18 degrees centigrade for 24 h then returned to 37 degrees centigrade for 2 h; 8 degrees centigrade for 24 h.																																
+Experiment Size	5D Images:	373 Images; Average Image Dimension (XYZCT): X = 42 microns; Y = 42 microns; Z = variable number of stacks with 0.125 micron spacing ; C = 3 channels (488,594,DAPI); T = N/A.	Total Tb: 																													
+Experiment Example Images																																
+Experiment Imaging Method	structured illumination microscopy (SIM)																															
+Experiment Imaging Method Term Source REF	Fbbi																																
+Experiment Imaging Method Term Accession	FBbi_00000332																																
+Experiment Comments	3D-SIM													
+
+														
+# assay files																																	
+Experiment Assay File																																	
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions																																
+Assay Experimental Conditions Term Source REF																																
+Assay Experimental Conditions Term Accession																																	
+Quality Control Description																														
+																																	
+# Protocols																																
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description	3D-SIM slide preparation.  AC16 cells were cultured on 22x22 mm #1.5H high precision 170 μm ± 5 μm poly-L-lysine treated coverslips (Marienfeld Superior). After exposure to a particular temperature condition, culture media was aspirated, and coverslips were washed once with PBS. Cells were fixed by incubating for 10 min in 2% formaldehyde/PBS, then washed with 0.05 % Tween-20/PBS (PBST), permeabilized by incubating for 10 min in 0.2 % Triton-X-100/PBS, and then washed again with PBST. Coverslips were incubated (30 min, RT) in MaxBlock (ActiveMotif, cat#15252), then (overnight, 4°C) in MaxBlock containing primary antibodies against the proteins of interest (primary antibody details and dilutions are shown in Table S8), washed 4 times with PBST, then incubated (30 min, RT) in MaxBlock containing fluorescently labelled secondary antibodies (secondary antibody details and dilutions are shown in Table S8), washed again 4 times with PBST. Cells were post-fixed by incubating for 10 min in 4% formaldehyde/PBS and washed with PBST. Coverslips were incubated in PBST containing 2 μg/ml DAPI, washed with PBST, mounted in non-hardening Vectashield (Vector Laboratories, cat#H-1000) and stored at 4°C.	
+3D-SIM image acquisition, reconstruction and quality control were carried out as detailed in Miron et al., 2019 (Miron et al, 2019). Images were acquired with a DeltaVision OMX V3 Blaze system (GE Healthcare) equipped with a 60x/1.42 NA PlanApo oil immersion objective (Olympus), pco.edge 5.5 sCMOS cameras (PCO) and 405, 488, 593 and 640 nm lasers. Spherical aberration was minimized using immersion oil with refractive index (RI) 1.514. 3D image stacks were acquired over the whole nuclear volume in z and with 15 raw images per plane (five phases, three angles). The raw data were computationally reconstructed with SoftWoRx 6.5.2 (GE Healthcare) using channel-specific OTFs recorded using immersion oil with RI 1.512, and Wiener filter settings between 0.002-0.006 to generate 3D stacks of 115 nm (488 nm) or 130 nm (593 nm) lateral and approximately 350 nm axial resolution. Multi-channel acquisitions were aligned in 3D using Chromagnon software (Matsuda et al, 2018) based on 3D-SIM acquisitions of multi-colour EdU-labelled C127 cells(Kraus et al, 2017). Table S9 details the number of nuclei imaged for each repeat, temperature condition and marker combination.
+3D-SIM imaging and subsequent quantitative analyses are susceptible to artefacts (Demmerle et al, 2017). For instance, bulk labelling of densely packed chromatin inside mammalian nuclei of several μm depth entails high levels of out-of-focus blur, which reduces the contrast of illumination stripe modulation and thus the ability to recover high frequency (i.e., super- resolution) structure information. All SIM data were therefore routinely and meticulously quality controlled for effective resolution and absence of artifacts using SIMcheck (Ball et al, 2015), an open-source Image J plugin to assess SIM image quality via modulation contrast-to-noise ratio (MCNR), spherical aberration mismatch, reconstructed Fourier plot and reconstructed intensity histogram values (for more details see Demmerle et al., 2017 (Demmerle et al, 2017)).  To exclude potential false positive calls, we used the “MCNR map” macro of SIMcheck, which generates a metric of local stripe contrast in different regions of the raw data and directly correlates with the level of high-frequency information content in the reconstructed data (Demmerle et al, 2017). Only IF centroid signals with underlying MCNR values exceeding a stringent quality threshold were considered, while localisations with low underlying MCNR were discarded during the ChaiN analysis pipeline to exclude any SIM signal which falls below reconstruction confidence.
+																																									
+# Phenotypes																																	
+Phenotype Name																																
+Phenotype Description																																	
+Phenotype Score Type																																	
+Phenotype Term Source REF	CMPO																																
+Phenotype Term Name																																	
+Phenotype Term Accession		 																												
+																																	
+# Feature Level Data Files (give individual file details unless there is one file per well)																																	
+Feature Level Data File Name																																	
+Feature Level Data File Format																																	
+Feature Level Data File Description																																	
+Feature Level Data Column Name																															
+Feature Level Data Column Description																																	
+																																	
+#  Processed Data Files 																																	
+Processed Data File Name																																
+Processed Data File Format	tab-delimited text																																
+Processed Data File Description																																	
+Processed Data Column Name																																	
+Processed Data Column Type																																
+Processed Data Column Annotation Level																															
+Processed Data Column Description																														
+Processed Data Column Link To Assay File													
+		
+			
+
+Experiment Number	2																																
+Comment[IDR Experiment Name]	idr0089-fischl-coldtemp/experimentB	
+
+
+Experiment Sample Type	cell																															
+Experiment Description	RNA-FISH of human cardiomyocyte cells (AC16s), U2OS cells or U2OS cells with Nr1d1 knocked-out exposed to different cold temperatures stained with RNA-FISH probes for Cry2, Tp53 or Nr1d1 and DAPI. Cells were grown in 5 different temperature conditions prior to fixation: 37 degrees centigrade; 18 degrees centigrade for 5 h; 18 degrees centigrade for 5 h then returned to 37 degrees centigrade for 2h; 18 degrees centigrade for 24 h; 18 degrees centigrade for 24 h then returned to 37 degrees centigrade for 2 h.																																
+Experiment Size	5D Images:	882 Images; Average Image Dimension (XYZCT): X = 128 microns; Y = 128 microns; Z = variable number of stacks with 0.2 micron spacing ; C = 2 (Quasar570 probe; DAPI) or 3 channels (Ignore channel; Quasar570 probe; DAPI); T = N/A.	Total Tb: 0.03 																													
+Experiment Example Images																																
+Experiment Imaging Method	wide field fluorescence deconvolution microscopy																														
+Experiment Imaging Method Term Source REF	Fbbi																																
+Experiment Imaging Method Term Accession																																	
+Experiment Comments	RNA-FISH (wide field fluorescence deconvolution microscope - with 60x lens)																																						
+# assay files																																	
+Experiment Assay File																																	
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions																																
+Assay Experimental Conditions Term Source REF																																
+Assay Experimental Conditions Term Accession																																	
+Quality Control Description																														
+																																	
+# Protocols																																
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description	RNA-FISH slide preparation.  Cells were cultured on poly-L-lysine treated coverslips. Culture media was aspirated, and coverslips were washed once with PBS. Cells were fixed by incubating for 10 min with 4 % formaldehyde/PBS, washed twice with PBS, and permeabilized by incubating (>3 h, -20°C) in 70 % ethanol. Cells were rehydrated by incubating (5 min, RT) with FISH wash buffer (10 % formamide, 2x SSC). For hybridization, coverslips were placed cell-coated side down on a 48μl drop containing 100 nM Quasar570-labelled probes complementary to one of REV-ERBα, CRY2, or TP53 transcripts (Biosearch Technologies) (see Table S6 for probe sequences), 0.1 g/ml dextran sulfate, 1 mg/ml E. coli tRNA, 2 mM VRC, 20 μg/ml BSA, 2x SSC, 10 % formamide and incubated (37°C, 20 h) in a sealed parafilm chamber. Coverslips were twice incubated (37°C, 30 min) in pre-warmed FISH wash buffer, then in PBS containing 0.5 μg/ml 4’,6-diamidino-2-phenylindole (DAPI) (5 min, RT), washed twice with PBS, dipped in water, air-dried, placed cell-coated side down on a drop of ProLong Diamond Antifade Mountant (Life Technologies), allowed to polymerize for 24 h in the dark and then sealed with nail varnish.	
+RNA-FISH image acquisition and analysis.  Cells were imaged using a DeltaVision Elite wide-field fluorescence deconvolution microscope using a 60x/1.40 objective lens (Olympus) and immersion oil with refractive index 1.514. First, the Quasar570-labelled RNA FISH probes were imaged using the TRITC channel, followed by imaging of the DAPI channel. The number of 0.2 μm-separated stacks imaged, number of replicates imaged for each condition and number of images across all combined replicates are listed in Table S7 (column “Stacks”, “Reps” and “Total images”, respectively). Images were deconvolved using the default conservative deconvolution method using DeltaVision Softworx software. Image quantification was carried out using Fiji (Schindelin et al, 2012). Deconvolved images were compressed to 2D images displaying the maximum intensity projection for each pixel across z-stacks listed in Table S7 (column “Projected”). Cell and nuclear areas were outlined using thresholding functions on the background TRITC signal and DAPI signal, respectively. Dots corresponding to transcripts were then counted for both nuclear and cytoplasmic areas for each image by applying the “Find Maxima” command with a noise tolerance specified in Table S7 (column “Maxima”). Bar charts show the mean number of dots per nuclear area and cytoplasmic area across all images for all combined replicates.														
+																																	
+# Phenotypes																																	
+Phenotype Name																																
+Phenotype Description																																	
+Phenotype Score Type																																	
+Phenotype Term Source REF	CMPO																																
+Phenotype Term Name																																	
+Phenotype Term Accession		 																																										
+																																	
+# Feature Level Data Files (give individual file details unless there is one file per well)																																	
+Feature Level Data File Name																																	
+Feature Level Data File Format																																	
+Feature Level Data File Description																																	
+Feature Level Data Column Name																															
+Feature Level Data Column Description																																	
+																																	
+#  Processed Data Files 																																	
+Processed Data File Name																																
+Processed Data File Format	tab-delimited text																																
+Processed Data File Description																																	
+Processed Data Column Name																																	
+Processed Data Column Type																																
+Processed Data Column Annotation Level																															
+Processed Data Column Description																														
+Processed Data Column Link To Assay File													
