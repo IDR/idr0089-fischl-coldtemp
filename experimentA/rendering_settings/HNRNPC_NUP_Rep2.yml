@@ -2,19 +2,19 @@
 channels:
     1:
         active: true
-        label: 'NUP'
+        label: 'Nuclear Pore Complex'
         start: 0
         end: 5000
     2:
         active: true
         label: 'hnRNPC'
         start: 0
-        end: 30000
+        end: 15000
     3:
         active: true
         label: 'DAPI'
         start: 0
-        end: 30000
+        end: 20000
 
 
 greyscale: false

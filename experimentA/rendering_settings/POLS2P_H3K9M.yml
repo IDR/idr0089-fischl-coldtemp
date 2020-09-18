@@ -2,12 +2,12 @@
 channels:
     1:
         active: true
-        label: 'H3K9M'
+        label: 'H3K9me3'
         start: 0
         end: 2000
     2:
         active: true
-        label: 'POLS2P'
+        label: 'Pol2S2P'
         start: 0
         end: 3000
     3:

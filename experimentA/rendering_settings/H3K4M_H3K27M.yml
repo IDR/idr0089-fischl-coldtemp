@@ -2,12 +2,12 @@
 channels:
     1:
         active: true
-        label: 'H3K27M'
+        label: 'H3K27me3'
         start: 0
         end: 6000
     2:
         active: true
-        label: 'H3K4M'
+        label: 'H3K4me3'
         start: 0
         end: 15000
     3:
