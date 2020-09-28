@@ -16,7 +16,7 @@ Study External URL
 	
 
 Study BioImage Archive Accession																															
-Study Public Release Date																																																							
+Study Public Release Date	2020-09-29																																																							
 # Study Publication																																	
 Study PubMed ID																																	
 Study Publication Title	Cold-induced chromatin compaction and nuclear retention of clock mRNAs resets the circadian rhythm																													
