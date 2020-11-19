@@ -18,11 +18,11 @@ Study External URL
 Study BioImage Archive Accession																															
 Study Public Release Date	2020-09-29																																																							
 # Study Publication																																	
-Study PubMed ID																																	
+Study PubMed ID	33034091																																	
 Study Publication Title	Cold-induced chromatin compaction and nuclear retention of clock mRNAs resets the circadian rhythm																													
 Study Author List	Fischl H, McManus D, Oldenkamp R, Schermelleh L, Mellor J, Jagannath A, Furger A																																
 Study PMC ID																																	
-Study DOI																			
+Study DOI	10.15252/embj.2020105604																			
 																																	
 # Study Contacts																																	
 Study Person Last Name	Furger	Fischl																											
